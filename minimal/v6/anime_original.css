@@ -1,4 +1,8 @@
 body {
+    background-attachment: fixed !important;
+    background-color: #f0f0f0 !important;
+    background-image: url("http://i.imgur.com/LvvaNSQ.png") !important;
+    background-repeat: repeat-x !important;
     font-family: Arial,Verdana,Helvetica,sans-serif;
     font-size: 13px !important;
 }
@@ -46,6 +50,9 @@ a:hover {
     width: 850px;
 }
 :nth-child(5) .header_title {
+    background: rgba(255, 255, 255, 0) url("http://i.imgur.com/lxDniKJ.gif") no-repeat scroll center center / 100% 100%;
+}
+:nth-child(5) .header_title {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.41);
@@ -64,6 +71,9 @@ a:hover {
     text-align: center;
     text-shadow: 1px 2px 6px #000000;
     top: 61px;
+}
+:nth-child(5) .header_title::before {
+    content: "iSayChris";
 }
 #list_surround .header_cw {
     background: #e5e5e5 url("http://i.imgur.com/uuWODfe.png") no-repeat scroll center center;
