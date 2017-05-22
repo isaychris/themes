@@ -1,0 +1,205 @@
+body {
+    background-attachment: fixed !important;
+    background-clip: border-box !important;
+    background-color: #F0F0F0 !important;
+    background-image: url("http://i.imgur.com/nsMuBmJ.gif") !important;
+    background-repeat: repeat-x !important;
+}
+* {
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-size: 13px;
+    text-decoration: none !important;
+}
+a {
+    color: #FFFFFF;
+}
+a:hover {
+    text-decoration: none;
+}
+a:hover {
+    border-bottom: 2px solid #5C8AE6;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#list_surround .header_title {
+    background: url("http://i.imgur.com/jUv4u9p.jpg") no-repeat scroll center center / 100% 100% rgba(255, 255, 255, 0.75);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.21);
+    height: 230px;
+    left: 0;
+    position: absolute;
+    top: -255px;
+    width: 850px;
+}
+.status_selected {
+    background-color: #5C8AE6;
+    border-color: #ABABAB;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.21);
+    color: #000000;
+    line-height: 2.5em;
+}
+.status_not_selected {
+    background: none repeat scroll 0 0 #3F3F3F;
+    border-color: #ABABAB;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.21);
+    color: #000000;
+    line-height: 2.5em;
+}
+#list_surround .header_cw {
+    background: url("http://i.imgur.com/uuWODfe.png") no-repeat scroll center center rgba(255, 255, 255, 0.75);
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.21);
+}
+#list_surround .header_completed {
+    background: url("http://i.imgur.com/n9e38rQ.png") no-repeat scroll center center rgba(255, 255, 255, 0.75);
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.21);
+}
+#list_surround .header_onhold {
+    background: url("http://i.imgur.com/2nFyk8R.png") no-repeat scroll center center rgba(255, 255, 255, 0.75);
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.21);
+}
+#list_surround .header_ptw {
+    background: url("http://i.imgur.com/av1NSs6.png") no-repeat scroll center center rgba(255, 255, 255, 0.75);
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.21);
+}
+#list_surround .header_dropped {
+    background: url("http://i.imgur.com/gZAmz5H.png") no-repeat scroll center center rgba(255, 255, 255, 0.75);
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.21);
+}
+#list_surround .header_cw, #list_surround .header_completed, #list_surround .header_onhold, #list_surround .header_ptw, #list_surround .header_dropped {
+    margin-bottom: 7px;
+    margin-left: 0;
+    padding: 28px;
+}
+#list_surround .header_title span {
+    color: #000000;
+    display: none;
+    font-size: 1px;
+}
+#list_surround .header_title .thickbox {
+    display: none;
+}
+#list_surround {
+    background: none repeat scroll 0 0 rgba(143, 143, 143, 0.47);
+    border: 2px solid #FFFFFF;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.51);
+    height: 100%;
+    left: 0;
+    margin: auto;
+    position: relative;
+    top: 280px;
+    width: 850px;
+}
+#list_surround br {
+    display: none;
+}
+.borderRBL {
+    color: #969696 !important;
+}
+.table_header {
+    background: none repeat scroll 0 0 #3F3F3F;
+    border-color: #ABABAB;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    color: #FFFFFF;
+    line-height: 1.8em;
+    padding: 4px;
+}
+.td1 {
+    background: url("") no-repeat scroll 0 0 rgba(0, 0, 0, 0.56);
+    line-height: 1em;
+    padding: 4px;
+}
+.td2 {
+    background: url("") no-repeat scroll 0 0 rgba(0, 0, 0, 0.45);
+    line-height: 1.1em;
+    padding: 4px;
+}
+#list_surround .animetitle + small {
+    background: none repeat scroll 0 0 #5C8AE6;
+    font-size: 11px;
+    margin-left: 10px;
+    opacity: 1;
+    padding: 2px;
+    text-transform: lowercase;
+}
+.td1, .td2, .table_header {
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 0 0 1px !important;
+    color: #FFFFFF;
+}
+#list_surround .category_totals {
+    background-color: #3F3F3F;
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 2em;
+    margin-top: 15px;
+    text-align: center;
+    width: 611px;
+}
+#list_surround #grand_totals {
+    display: none;
+}
+#copyright {
+    background: none repeat scroll 0 0 #5C8AE6;
+    color: #FFFFFF;
+    font-size: 13px;
+    height: 15px;
+    padding: 9px;
+    position: relative;
+}
+#copyright:before {
+    content: "Layout by iSayChris";
+    display: block;
+    padding-bottom: 20px;
+}
+#search {
+    bottom: 50px !important;
+    left: 100px !important;
+    position: fixed !important;
+    z-index: 1000 !important;
+}
+#searchBox {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+    border-radius: 4px;
+    border-style: hidden;
+    box-shadow: 0 0 4px #E2E2E2;
+    color: #AAAAAA;
+    display: block !important;
+    font-family: Consolas,Arial,sans-serif !important;
+    font-size: 10px;
+    height: 16px !important;
+    letter-spacing: 0.1em;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    right: 6px !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    top: 8px !important;
+    width: 220px !important;
+    z-index: 20 !important;
+}
+#searchListButton {
+    display: none;
+}
+#mal\_control\_strip {
+     background-color: rgba(143, 143, 143, 0.9) ! important;
+     background-image: url("http://i.imgur.com/fv1Pc.png") ! important;
+}
+#mal_cs_powered a {
+    display: none;
+}
+tr:hover .td2, tr:hover .td1 {
+    background: none repeat scroll 0 0 rgba(5, 5, 5, 0.7);
+}
+tr:hover td.td1 small, tr:hover td.td2 small {
+opacity: 1;
+}
+.td1 small, .td2 small {
+opacity: 0;
+}
