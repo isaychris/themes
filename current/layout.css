@@ -1,0 +1,271 @@
+@import "https://mal-image.appspot.com/all/isaychris";
+
+BODY {
+    background-color: #dfdfdf;
+    background-image: url("http://i.imgur.com/vSTpVOS.png") !important;
+    color: white;
+    font-family: arial !important;
+    font-size: 13px;
+    margin: 0;
+}
+#list_surround {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    margin: auto !important;
+    padding-bottom: 15px !important;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 239px;
+    width: 950px;
+}
+* {
+    text-decoration: none !important;
+}
+a {
+    color: white;
+    text-decoration: underline;
+}
+a:hover {
+    border-bottom: 2px solid #78909c;
+}
+.td1 {
+    background-color: #78909c;
+    border-color: #ababab;
+    color: #000000;
+    height: 25px;
+    padding: 2px;
+}
+.td2 {
+    background-color: #90a4ae;
+    border-color: #ababab;
+    color: #000000;
+    height: 25px;
+    padding: 2px;
+}
+.td1, .td2, .table_header {
+    color: white !important;
+}
+.table_header {
+    background-color: #607d8b !important;
+    border-color: #ababab;
+    border-width: 1px 1px 1px 0;
+    color: white !important;
+    height: 26px;
+    padding: 2px;
+}
+tr:hover td.td1 small, tr:hover td.td2 small {
+    opacity: 1 !important;
+}
+tr:hover .td2, tr:hover .td1 {
+    background-color: #607d8b !important;
+}
+.td1 small, .td2 small {
+    opacity: 0 !important;
+}
+#list_surround .animetitle + small {
+    background-color: #607d8b !important;
+    margin-left: 8px;
+    opacity: 1 !important;
+    padding: 3px;
+}
+.form {
+    border-color: #ababab;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    font-family: Verdana,Arial;
+    font-size: 11px;
+    padding: 2px;
+}
+.status_selected {
+    background-color: #90a4ae;
+    border-color: #ababab;
+    border-width: 0 1px 1px 0;
+    color: #000000;
+    height: 25px;
+    padding: 2px;
+    width: 16.5%;
+}
+.status_not_selected {
+    background-color: rgb(96, 125, 139) !important;
+    border-color: rgb(171, 171, 171);
+    border-width: 0 1px 1px 0;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    padding: 2px;
+    position: relative;
+    width: 16.5%;
+}
+.status_not_selected:after {
+    content: "";
+    width: 1px;
+    background-color: #90a4ae;
+    animation: ;
+    position: absolute;
+    top: 25%;
+    left: -1px;
+    z-index: 5;
+    height: 50%;
+}
+.status_not_selected a, .status_selected a {
+    border-bottom: medium none !important;
+    display: block;
+}
+.status_not_selected:hover, .status_selected:hover {
+    box-shadow: 0 5px 0 0 #90a4ae inset;
+    transition: all 0.2s ease 0s;
+}
+.header_title {
+    background-color: #607d8b !important;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 7px;
+    text-align: center !important;
+	border-radius: 15px 15px 0px 0px !important
+}
+.category_totals {
+    background-color: #607d8b !important;
+    box-shadow: 0 3px 6px -2px gray;
+    padding: 8px;
+    text-align: center;
+	border-radius: 0px 0px 15px 15px !important;
+}
+#grand_totals {
+    display: none !important;
+    text-align: center;
+}
+.animetitle {
+    font-weight: normal;
+}
+#copyright {
+    background-color: #607d8b !important;
+    display: none !important;
+    margin-bottom: 20px !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-top: 6px;
+    text-align: center;
+}
+#list_surround::before {
+    background-image: url("http://i.imgur.com/inhE84Q.gif");
+    background-size: 100% 100%;
+    content: "";
+    display: block !important;
+    height: 200px !important;
+    position: absolute !important;
+    top: 70px !important;
+    width: 950px !important;
+	border-radius: 15px 15px 0px 0px !important;
+}
+#searchBox {
+    background: #90a4ae none repeat scroll 0 0;
+    border-style: hidden;
+    color: white !important;
+    font-size: 15px !important;
+    height: 38px !important;
+    position: absolute;
+    right: -7px !important;
+    text-align: center;
+    top: -4px !important;
+    width: 200px !important;
+}
+#searchListButton {
+    display: none;
+}
+#mal\_control\_strip {
+    background-color: #607d8b !important;
+    background-image: url("") !important;
+    box-shadow: 0 3px 6px -2px gray;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    position: fixed;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 5;
+    border-radius: 0px !important
+}
+#mal_cs_powered a {
+    display: none;
+}
+table:first-of-type {
+    bottom: -15px;
+    box-shadow: 0 3px 6px -2px gray;
+    position: relative;
+    border-radius: 0px 0px 15px 15px !important;
+}
+.hide {
+    background-color: rgba(0, 0, 0, 0);
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    display: inline-block !important;
+    height: 21px;
+    margin-left: 39px;
+    margin-top: -25px;
+    position: absolute;
+    width: 35px;
+}
+.hide:hover {
+    background-color: transparent;
+    background-size: cover;
+    box-shadow: 0 3px 6px -2px gray;
+    margin-left: -183px;
+    margin-top: -320px;
+    padding-right: 132px;
+    padding-top: 210px !important;
+    position: absolute;
+    z-index: 1;
+}
+.hide:hover::after {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    content: " ";
+    height: 21px;
+    left: 222px;
+    position: absolute;
+    top: 295px;
+    width: 37px;
+    z-index: 20;
+}
+td.td1:nth-of-type(1), td.td2:nth-of-type(1) {
+    padding-right: 54px !important;
+}
+.table_header:nth-of-type(2) a {
+    margin-left: 53px;
+}
+#inlineContent {
+    background-image: url("");
+    display: inline !important;
+    height: 200px;
+    position: absolute;
+    top: 70px;
+    width: 950px;
+}
+#inlineContent::before {
+    content: "水に流す";
+    display: block;
+    font-size: 50px;
+    margin-top: 70px;
+    padding: 4px;
+    text-align: center;
+    text-shadow: 1px 1px 10px #000000 !important;
+}
+
+td.status_not_selected:first-child {
+    border-radius: 0px 0px 0px 15px !important;
+}
+
+td.status_not_selected:last-child {
+    border-radius: 0px 0px 15px 0px !important;
+}
+
+td.status_selected:first-child {
+    border-radius: 0px 0px 0px 15px !important;
+}
+
+td.status_selected:last-child {
+    border-radius: 0px 0px 15px 0px !important;
+}
+
+.status_not_selected:first-child:after {
+    display: none;
+}
