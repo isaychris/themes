@@ -1,0 +1,225 @@
+body {
+    background-attachment: fixed !important;
+    background-color: #f0f0f0 !important;
+    background-image: url("http://i.imgur.com/LvvaNSQ.png") !important;
+    background-repeat: repeat-x !important;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-size: 13px !important;
+}
+* {
+    text-decoration: none !important;
+}
+a {
+    color: #ffffff;
+}
+a:hover {
+    border-bottom: 2px solid #5c8ae6;
+    color: #ffffff;
+    text-decoration: none;
+}
+.status_selected {
+    background: #5c8ae6 none repeat scroll 0 0;
+    line-height: 2.5em;
+}
+.status_not_selected a:hover, .status_selected a:hover {
+    border-bottom: 0 none !important;
+}
+.status_not_selected:hover {
+    box-shadow: 0 5px 0 0 #5c8ae6 inset;
+    transition: all 0.2s ease 0s;
+}
+.status_not_selected {
+    background: #2e2f2f none repeat scroll 0 0;
+    line-height: 2.5em;
+}
+.status_selected:first-child, .status_not_selected:first-child {
+    border-radius: 0 0 0 25px !important;
+}
+.status_selected:last-child, .status_not_selected:last-child {
+    border-radius: 0 0 25px !important;
+}
+.status_selected a, .status_not_selected a {
+    display: block;
+}
+#list_surround {
+    background: rgba(0, 0, 0, 0.25) none no-repeat scroll 0 0;
+    border-radius: 0 0 25px 25px;
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.41);
+    height: 100%;
+    margin: 220px auto 20px;
+    width: 850px;
+}
+:nth-child(5) .header_title {
+    background: rgba(255, 255, 255, 0) url("http://i.imgur.com/lxDniKJ.gif") no-repeat scroll center center / 100% 100%;
+}
+:nth-child(5) .header_title {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.41);
+    height: 200px;
+    margin-left: -28px;
+    position: absolute;
+    top: 60px;
+    width: 850px;
+}
+:nth-child(5) .header_title::before {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    color: #f5f5f5;
+    display: block;
+    font-size: 65px !important;
+    position: relative;
+    text-align: center;
+    text-shadow: 1px 2px 6px #000000;
+    top: 61px;
+}
+:nth-child(5) .header_title::before {
+    content: "iSayChris";
+}
+#list_surround .header_cw {
+    background: #e5e5e5 url("http://i.imgur.com/9BxS2Jj.png") no-repeat scroll center center;
+}
+#list_surround .header_completed {
+    background: #e5e5e5 url("http://i.imgur.com/n9e38rQ.png") no-repeat scroll center center;
+}
+#list_surround .header_onhold {
+    background: #e5e5e5 url("http://i.imgur.com/2nFyk8R.png") no-repeat scroll center center;
+}
+#list_surround .header_ptw {
+    background: #e5e5e5 url("http://i.imgur.com/wBM2a3N.png") no-repeat scroll center center;
+}
+#list_surround .header_dropped {
+    background: #e5e5e5 url("http://i.imgur.com/gZAmz5H.png") no-repeat scroll center center;
+}
+#list_surround .header_cw, #list_surround .header_completed, #list_surround .header_onhold, #list_surround .header_ptw, #list_surround .header_dropped {
+    border-radius: 25px 25px 0 0;
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0);
+    margin-top: 20px;
+    padding: 28px;
+}
+#list_surround .header_title span {
+    color: #000000;
+    display: none;
+    font-size: 1px;
+}
+#list_surround .header_title .thickbox {
+    display: none;
+}
+#list_surround br {
+    display: none;
+}
+.borderRBL {
+    color: #cccccc !important;
+}
+.borderRBL br {
+    display: block !important;
+}
+.table_header {
+    background: #2e2f2f none repeat scroll 0 0;
+    line-height: 1.8em;
+    padding: 4px;
+}
+.td1 {
+    background: #464647 none repeat scroll 0 0;
+    line-height: 20px;
+    padding: 4px;
+}
+.td2 {
+    background: #595959 none repeat scroll 0 0;
+    line-height: 20px;
+    padding: 4px;
+}
+#list_surround .animetitle + small {
+    background: #5c8ae6 none repeat scroll 0 0;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-left: 10px;
+    opacity: 1;
+    padding: 2px;
+    text-transform: lowercase;
+}
+.td1, .td2, .table_header {
+    color: #ffffff;
+}
+tr:hover td.td1 small, tr:hover td.td2 small {
+    font-size: 13px;
+    opacity: 1;
+}
+.td1 small, .td2 small {
+    font-size: 13px;
+    opacity: 0;
+}
+tr:hover .td2, tr:hover .td1 {
+    background: #393939 none repeat scroll 0 0;
+}
+#list_surround .category_totals {
+    background-color: #2e2f2f;
+    border-radius: 0 0 25px 25px;
+    color: #ffffff;
+    line-height: 25px;
+    margin-top: 15px;
+    text-align: center;
+}
+#list_surround #grand_totals {
+    background-color: #5c8ae6;
+    color: #ffffff;
+    display: none;
+    line-height: 25px;
+    text-align: center;
+}
+#searchBox {
+    display: none;
+}
+#searchListButton {
+    display: none;
+}
+#mal\_control\_strip {
+    background-color: #8f8f8f !important;
+    background-image: url("http://i.imgur.com/fv1Pc.png") !important;
+}
+#mal_cs_powered a {
+    display: none;
+}
+#mal_cs_links {
+    display: none !important;
+}
+#mal_cs_listinfo {
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+#copyright {
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0);
+    line-height: 25px;
+    margin-top: -25px !important;
+    pointer-events: none;
+}
+#copyright::after {
+    background-color: #333333;
+    background-image: url("http://db.tt/uBvPkq8g");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    bottom: 5px;
+    color: rgba(0, 0, 0, 0) !important;
+    content: "Minimalist Version 6.0 Designed by iSayChris";
+    display: block;
+    font-size: 0 !important;
+    height: 5px;
+    padding-bottom: 20px;
+    pointer-events: auto;
+    position: fixed;
+    right: 5px;
+    transition: all 0.15s ease-out 0s;
+    width: 25px;
+}
+#copyright:hover::after {
+    background-image: none;
+    color: #e5e5e5 !important;
+    font-size: 13px !important;
+    height: auto !important;
+    padding: 5px;
+    text-align: justify !important;
+    transition: all 0.15s ease-in 0s;
+    width: 150px;
+}
