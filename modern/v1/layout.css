@@ -1,0 +1,731 @@
+:root {
+    --shade1: #607d8b;
+    --shade2: #78909c;
+    --shade3: #90a4ae;
+}
+.cover-block::before {
+    content: "MyAnimeList" !important;
+}
+body {
+    color: white;
+    font-family: Verdana,Arial;
+    font-size: 11px;
+    margin: 0;
+    text-align: center;
+}
+td {
+    line-height: 30px;
+}
+a {
+    color: white !important;
+    text-decoration: none;
+}
+#footer-block {
+    background-color: var(--shade1);
+    color: #ffffff;
+    display: none;
+    font-family: Avenir,"lucida grande",tahoma,verdana,arial,sans-serif;
+    padding: 15px 0;
+}
+#copyright {
+    color: #9caed9;
+    font-size: 12px;
+    padding-top: 3px;
+    text-align: center;
+}
+.header a {
+    color: #fff;
+    font-weight: bold;
+}
+.header a:hover {
+    text-decoration: underline;
+}
+.header {
+    background: var(--shade1) none repeat scroll 0 0 !important;
+    box-shadow: 0 3px 6px -2px gray;
+    color: #fff;
+    display: block;
+    height: 65px;
+    margin: 0 auto;
+    min-width: 950px !important;
+    position: relative;
+    width: auto;
+}
+.header .header-title {
+    background-image: url("/img/pc/ownlist/logo_mal.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 36px;
+    display: block;
+    height: 36px;
+    margin-left: 15px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    top: 21px;
+    width: 240px;
+}
+.header .header-menu {
+    position: absolute;
+    right: 4px;
+    top: 25px;
+}
+.header .header-menu.other {
+    top: 18px;
+}
+.header .header-menu .btn-menu {
+    display: block;
+    font-size: 16px;
+    margin-right: 10px;
+    text-align: right;
+}
+.header .header-menu .header-info {
+    font-size: 1em;
+    margin-right: 15px;
+    margin-top: 6px;
+    text-align: right;
+}
+.header .username {
+    font-weight: bold;
+}
+.header .header-menu .list-menu {
+    background-color: var(--shade1) !important;
+    border: medium none !important;
+    border-radius: 5px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 25px;
+    z-index: 1;
+}
+.header .header-menu .list-menu .icon-menu {
+    border-radius: 5px;
+    color: white !important;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    width: 150px;
+}
+.header .header-menu .list-menu .icon-menu:hover {
+    background-color: var(--shade2) !important;
+}
+.header .header-menu .list-menu .icon-menu svg.icon {
+    fill: white !important;
+    left: 12px;
+    position: absolute;
+    top: 4px;
+}
+.header .header-menu .list-menu .icon-menu .text {
+    left: 52px;
+    position: absolute;
+    top: 6px;
+}
+.list-menu-float {
+    border: 1px solid #ebebeb;
+    display: block;
+    position: fixed;
+    top: 20%;
+    width: 50px;
+    z-index: 2;
+}
+.list-menu-float .icon-menu {
+    background-color: #f6f6f6;
+    display: block;
+    height: 50px;
+    opacity: 1;
+    position: relative;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    width: 50px;
+}
+.list-menu-float .icon-menu svg.icon {
+    fill: #323232;
+    position: absolute;
+}
+.list-menu-float .icon-menu:hover svg.icon {
+    fill: #ffffff;
+    position: absolute;
+}
+.list-menu-float .icon-menu.profile {
+    background-size: cover;
+}
+.list-menu-float .icon-menu.quick-add {
+}
+.list-menu-float .icon-menu.quick-add svg.icon-quick-add {
+    left: 13px;
+    top: 12px;
+}
+.list-menu-float .icon-menu.anime-list {
+}
+.list-menu-float .icon-menu.anime-list svg.icon-anime-list {
+    left: 13px;
+    top: 12px;
+}
+.list-menu-float .icon-menu.manga-list {
+}
+.list-menu-float .icon-menu.manga-list svg.icon-manga-list {
+    left: 13px;
+    top: 12px;
+}
+.list-menu-float .icon-menu.history {
+}
+.list-menu-float .icon-menu.history svg.icon-history {
+    left: 13px;
+    top: 12px;
+}
+.list-menu-float .icon-menu.export {
+}
+.list-menu-float .icon-menu.export svg.icon-export {
+    left: 13px;
+    top: 12px;
+}
+.list-menu-float .icon-menu.login {
+}
+.list-menu-float .icon-menu.login svg.icon-login {
+    left: 13px;
+    top: 12px;
+}
+.list-menu-float .icon-menu.logout {
+}
+.list-menu-float .icon-menu.logout svg.icon-logout {
+    left: 13px;
+    top: 14px;
+}
+.list-menu-float .icon-menu.setting {
+}
+.list-menu-float .icon-menu.setting svg.icon-setting {
+    left: 13px;
+    top: 13px;
+}
+.list-menu-float .icon-menu .text {
+    color: #ffffff;
+    display: inline-block;
+    font-family: "Helvetica neue",Helvetica,"lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 1.4em;
+    left: 50px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 0;
+}
+.list-menu-float .icon-menu:hover:not(.profile) {
+    background-color: var(--shade1) !important;
+    width: 145px;
+}
+.list-menu-float .icon-menu:hover .text {
+    opacity: 1;
+    width: 94px;
+}
+.list-menu-float .icon-menu.setting .text {
+    height: 100px;
+    opacity: 0;
+    top: 0;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    width: 0;
+}
+.list-menu-float .icon-menu.setting:hover .text {
+    height: 100px;
+    opacity: 1;
+    top: 0;
+    width: 114px;
+}
+.list-menu-float .icon-menu.setting .text .link-list-setting, .list-menu-float .icon-menu.setting .text .link-style-setting {
+    display: block;
+    opacity: 0;
+}
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting, .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+    background-color: var(--shade1) !important;
+    color: #ffffff;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    opacity: 1;
+    position: absolute;
+    text-decoration: none;
+    width: 110px;
+}
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting {
+    top: 0;
+}
+.list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+    border-top: 1px solid #ebebeb;
+    top: 50px;
+}
+.list-container {
+    background-color: rgba(0, 0, 0, 0);
+    border: medium none !important;
+    border-radius: 25px !important;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px !important;
+    position: relative;
+    text-align: left;
+    width: 950px;
+}
+.cover-block {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    width: 950px;
+}
+.cover-block::before {
+    background-color: rgba(0, 0, 0, 0.15) !important;
+    content: "vZangetsuha";
+    display: block !important;
+    font-size: 68px;
+    margin-top: 61px !important;
+    position: absolute;
+    text-shadow: 1px 1px 10px #000000;
+    width: 950px !important;
+}
+.cover-block .image-container {
+    display: block;
+    margin: auto !important;
+    padding: 0 !important;
+    width: 950px;
+}
+.cover-block .image-container.hide {
+    display: none;
+}
+.cover-block .image-container img {
+    border-radius: 25px 25px 0 0 !important;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+    height: 200px;
+    width: 100%;
+}
+.cover-block .image-container .btn-list-setting {
+    display: none;
+}
+.cover-block .image-container:hover .btn-list-setting {
+    border: 1px solid rgba(255, 255, 255, 0);
+    color: #ffffff;
+    display: block;
+    font-family: "Helvetica neue",Helvetica,"lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 14px;
+    padding: 8px;
+    position: absolute;
+    right: 28px;
+    top: 20px;
+}
+.cover-block .image-container .btn-list-setting:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 4px #000000;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 8px;
+    position: absolute;
+    right: 28px;
+    text-shadow: 1px 1px 1px #323232;
+    top: 20px;
+}
+.cover-block .image-container .btn-list-setting .fa-camera {
+    font-size: 16px;
+    text-shadow: 1px 1px 3px #000000;
+}
+.cover-block .image-container .btn-list-setting .icon-plus-circle {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    box-shadow: -1px 1px 0 0 #323232;
+    font-size: 10px;
+    left: 18px;
+    position: absolute;
+    top: 4px;
+}
+.cover-block .image-container .btn-list-setting .text {
+    display: none;
+}
+.cover-block .image-container .btn-list-setting:hover .text {
+    display: inline-block;
+    margin-left: 4px;
+}
+.status-menu-container {
+    background-color: var(--shade1);
+    border: medium none !important;
+    border-radius: 0 0 25px 25px !important;
+    box-shadow: 0 3px 6px -2px gray;
+    color: white !important;
+    height: 46px;
+    margin: auto !important;
+    width: 950px;
+    z-index: 1;
+}
+.status-menu-container.fixed {
+    margin: auto;
+    position: fixed;
+    top: 0;
+    width: 950px !important;
+}
+.status-menu-container.fixed + div.list-block {
+    margin-top: 62px;
+}
+.status-menu-container .status-menu {
+    border-collapse: separate;
+    border-spacing: 40px 0;
+    color: white !important;
+    display: table;
+    margin: 0 auto;
+    width: 950px !important;
+}
+.status-menu-container .status-menu .status-button {
+    color: #9b9b9b;
+    display: table-cell;
+    font-family: "Helvetica neue",Helvetica,"lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 1.6em;
+    margin: 0;
+    padding: 12px 0;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.status-menu-container .status-menu .status-button.on {
+    color: #787878;
+    font-weight: normal;
+}
+.status-menu-container .status-menu .status-button::after {
+    background-color: white;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    width: 100%;
+}
+.status-menu-container .status-menu .status-button.on::after, .status-menu .status-button:hover::after {
+    opacity: 1;
+}
+.status-menu-container .search-container {
+    display: none !important;
+    position: absolute;
+    right: 18px;
+}
+.status-menu-container .search-container #search-button {
+    color: #787878;
+    display: inline-block;
+    font-size: 1.6em;
+    height: 22px;
+    margin-top: 15px;
+    vertical-align: middle;
+}
+.status-menu-container .search-container #search-box {
+    display: inline-block;
+    height: 22px;
+    margin-top: 13px;
+    overflow: hidden;
+    transition: width 0.3s ease 0s;
+    vertical-align: middle;
+    width: 0;
+}
+.status-menu-container .search-container #search-box.open {
+    display: inline-block;
+    width: 100px;
+}
+.status-menu-container .search-container #search-box input {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+.list-block {
+    margin-top: 16px;
+    min-height: 600px;
+    padding: 0;
+}
+.list-unit {
+    border-radius: 25px;
+    box-shadow: 0 3px 6px -2px gray;
+    display: block;
+    margin: 0 auto;
+    width: 950px;
+}
+.list-unit::after {
+    background: var(--shade1) none repeat scroll 0 0 !important;
+    border-radius: 0 0 25px 25px !important;
+    border-top: 1px solid white !important;
+    content: "MyAnimeList.net is a property of MyAnimeList, LLC. ©2015 All Rights Reserved.";
+    display: block !important;
+    margin-bottom: 25px;
+    padding: 20px !important;
+    text-align: center;
+}
+.list-unit .list-status-title {
+    background-color: var(--shade1) !important;
+    border-radius: 25px 25px 0 0;
+    display: table;
+    height: 38px;
+    position: relative;
+    width: 950px;
+}
+.list-unit .list-status-title .text {
+    color: #fff;
+    display: table-cell;
+    font-family: "Helvetica neue",Helvetica,"lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+    height: 38px;
+    text-align: center;
+    vertical-align: middle;
+    width: 950px !important;
+}
+.list-unit .list-status-title .stats {
+    height: 38px;
+    line-height: 38px;
+    position: absolute;
+    right: 4px;
+}
+.list-unit .list-status-title .stats a {
+    color: #fff;
+    margin-right: 8px;
+}
+.list-unit .list-status-title .stats a.filterd {
+    text-shadow: 0 0 2px #fff;
+}
+.list-unit .list-stats {
+    background-color: var(--shade1) !important;
+    color: #fff;
+    display: none;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 950px !important;
+}
+.list-table {
+    background: var(--shade2) none repeat scroll 0 0 !important;
+    border: medium none !important;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+}
+.list-table > tbody:nth-of-type(2n+1) {
+    background-color: var(--shade3) !important;
+}
+.list-table .list-table-header .header-title {
+    background: var(--shade1) none repeat scroll 0 0 !important;
+    display: table-cell;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+}
+.list-table .list-table-header .header-title:last-child {
+    background-image: none;
+}
+.list-table .list-table-header .header-title.status {
+    background-image: none;
+    width: 4px;
+}
+.list-table .list-table-header .header-title.number {
+    width: 30px;
+}
+.list-table .list-table-header .header-title.image {
+    width: 66px;
+}
+.list-table .list-table-header .header-title.title {
+    padding-left: 8px;
+    text-align: left;
+}
+.list-table .list-table-header .header-title.score {
+    width: 65px;
+}
+.list-table .list-table-header .header-title.type {
+    width: 60px;
+}
+.list-table .list-table-header .header-title.progress {
+    width: 90px;
+}
+.list-table .list-table-header .header-title.chapters {
+    width: 90px;
+}
+.list-table .list-table-header .header-title.volumes {
+    width: 90px;
+}
+.list-table .list-table-header .header-title.tags {
+    width: 120px;
+}
+.list-table .list-table-header .header-title.rated {
+    width: 70px;
+}
+.list-table .list-table-header .header-title.started {
+    width: 110px;
+}
+.list-table .list-table-header .header-title.finished {
+    width: 110px;
+}
+.list-table .list-table-header .header-title.days {
+    width: 45px;
+}
+.list-table .list-table-header .header-title.storage {
+    width: 75px;
+}
+.list-table .list-table-header .header-title.retail {
+    width: 65px;
+}
+.list-table .list-table-header .header-title.priority {
+    width: 70px;
+}
+.list-table .list-table-header .header-title .link {
+    color: #323232;
+    font-size: 11px;
+    text-decoration: none;
+}
+.list-table .list-table-header .header-title .link.sort {
+    color: #323232;
+    display: inline-block;
+    position: relative;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    white-space: nowrap;
+}
+.list-table .list-table-header .header-title .link.sort:hover {
+    text-decoration: underline;
+}
+.list-table .list-table-header .header-title .link.sort:hover {
+    color: #2556c6;
+}
+.list-table .list-table-header .header-title .sort-icon {
+    color: white !important;
+}
+.list-table .list-table-data .data {
+    border: medium none !important;
+    color: white !important;
+    display: table-cell;
+    padding: 4px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+.list-table .list-table-data a:hover:not(.edit-disabled) {
+    text-decoration: underline;
+}
+.list-table .list-table-data a.edit-disabled {
+    color: black;
+    cursor: text;
+}
+.list-table .list-table-data .tags .edit {
+    color: white !important;
+    display: block;
+    font-family: "Helvetica neue",Helvetica,"lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+}
+.list-table .list-table-data .tags .edit:hover {
+    color: white !important;
+}
+.list-table .list-table-data .tags textarea {
+    box-sizing: border-box;
+    height: 60px;
+    width: 100%;
+}
+.list-table .list-table-data .data.image a {
+    display: inline-block;
+}
+.list-table .list-table-data .data.image .image {
+    border: 1px solid #ebebeb;
+    border-radius: 9px;
+    height: 68px;
+    width: 48px;
+}
+.list-table .list-table-data .data.title {
+    padding-left: 8px;
+    text-align: left;
+    word-wrap: break-word;
+}
+.list-table .list-table-data .data.title .link {
+    font-size: 1.1em;
+    font-weight: normal;
+}
+.list-table .list-table-data .data.title .rewatching, .list-table .list-table-data .data.title .rereading, .list-table .list-table-data .data.title .content-status {
+    background: var(--shade1) none repeat scroll 0 0 !important;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9em;
+    margin-left: 10px;
+    padding: 5px;
+}
+.list-table .list-table-data .data.score .link {
+    font-size: 1.1em;
+    font-weight: normal;
+}
+.list-table .list-table-data .data.title .add-edit-more {
+    float: right;
+    font-size: 0.9em;
+    margin-right: 10px;
+}
+.list-table .list-table-data .data.title .more {
+    position: relative;
+}
+.list-table .more-info {
+    display: none;
+}
+.list-table .more-info .more-content {
+    padding: 10px;
+}
+.list-table .list-table-data .data.tags {
+    word-wrap: break-word;
+}
+.list-table .list-table-data .data.status {
+    width: 4px;
+}
+.list-table .list-table-data .data.status .text {
+    display: none;
+}
+.list-table .list-table-data .data.status.reading, .list-table .list-table-data .data.status.watching {
+    background-color: #2db039;
+}
+.list-table .list-table-data .data.status.plantoread, .list-table .list-table-data .data.status.plantowatch {
+    background-color: #c3c3c3;
+}
+.list-table .list-table-data .data.status.completed {
+    background-color: #26448f;
+}
+.list-table .list-table-data .data.status.onhold {
+    background-color: #f1c83e;
+}
+.list-table .list-table-data .data.status.dropped {
+    background-color: #a12f31;
+}
+.list-table .list-table-data .data.title {
+    padding-left: 8px;
+    text-align: left;
+}
+.list-unit .loading-space {
+    font-size: 20px;
+    height: 0;
+    margin: 0;
+    text-align: center;
+}
+.add-edit-more {
+    visibility: hidden;
+}
+.list-item:hover .add-edit-more {
+    visibility: visible;
+}
+.data.score .link {
+    background: var(--shade1) none repeat scroll 0 0 !important;
+    border-radius: 5px;
+    display: inline-block;
+    line-height: 21px !important;
+    width: 29px !important;
+}
