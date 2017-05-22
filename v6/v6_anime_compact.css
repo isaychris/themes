@@ -1,0 +1,14 @@
+@import "https://isaychris.github.io/themes/v6/v6_anime_original.css";
+
+body {
+    background-attachment: fixed !important;
+    background-color: #f0f0f0 !important;
+    background-image: url("http://i.imgur.com/LvvaNSQ.png") !important;
+    background-repeat: repeat-x !important;
+}
+:nth-child(5) .header_title {
+    background: rgba(255, 255, 255, 0) url("http://i.imgur.com/lxDniKJ.gif") no-repeat scroll center center / 100% 100%;
+}
+:nth-child(5) .header_title::before {
+    content: "MyAnimeList";
+}
