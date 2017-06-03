@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/*
+// Self-explanatory
+*/
+BODY
+{
+margin: 0;
+color: #000000;
+font-size: 11.00px;
+font-family: Verdana, Arial;
+background-image: linear-gradient(120deg, #155799, #159957);
+background-size: 100% 350px;
+background-repeat: no-repeat;
+}
+
+* {
+    text-decoration: none !important;
+    color: ;
+}
+/*
+// Determines the positioning of your list
+*/
+
+#list_surround
+{
+margin: 360px auto;
+width: 920px;
+}
+
+#list_surround .animetitle + small
+{
+    background-color: #dff0d8 !important;
+    margin-left: 8px;
+    padding: 5px;
+    color: #3c763d;
+    border-radius: 5px;
+}
+/*
+// All links on your list
+*/
+
+a
+{
+color: #757575;
+text-decoration: underline;
+}
+
+a:visited
+{
+color: #757575;
+text-decoration: underline;
+}
+
+a:hover
+{
+color: #757575;
+text-decoration: none;
+}
+
+/*
+// Alternating row color 1
+*/
+
+.td1
+{
+
+color: #000000;
+border-color: #ABABAB;
+padding: 2px;
+background-color: #FFFFFF;
+line-height: 25px;
+color: #757575 !important;
+}
+
+/*
+// Alternating row color 2
+*/
+
+.td2
+{
+
+color: #000000;
+border-color: #ABABAB;
+padding: 2px;
+background-color: #f7f7f9;
+line-height: 25px;
+color: #757575 !important;
+}
+
+/*
+// This represents the "Anime Title", "Score", "# Eps" columns
+*/
+
+.table_header
+{
+
+color: #757575;
+border-color: #ddd;
+background-color: #f5f5f5;
+padding: 2px;
+border-style: solid;
+border-width: 0px 0px 1px 0px !important;
+line-height: 25px;
+}
+
+/*
+// headerLink represents the color of the links inside the table_header
+*/
+
+.table_headerLink
+{
+color: #757575;
+}
+
+.table_headerLink:Visited
+{
+color: #757575;
+}
+
+.table_headerLink:Hover
+{
+color: #757575;
+}
+
+/*
+// Controls the select form decoration (the drop down select box)
+*/
+
+.form
+{
+border-width: 1px 1px 1px 1px;
+border-color: #ABABAB;
+border-style: solid;
+color: #000000;
+padding: 2px;
+font-size: 11.00px;
+font-family: Verdana, Arial;
+}
+
+
+/* Which 'status' up top is selected? */
+
+.status_selected
+{
+
+	color: #000000;
+    border-color: #ABABAB;
+    padding: 2px;
+    background-color: #FFFFFF;
+    height: 36px;
+    border-color: rgb(230, 230, 230);
+    border-style: solid;
+    border-width: 1px;
+	}
+
+.status_not_selected
+{
+	color: #000000;
+    border-color: #ABABAB;
+    padding: 2px;
+    background-color: #F1F1F1;
+	height: 36px;
+    border-color: rgb(230, 230, 230);
+    border-style: solid;
+    border-width: 1px;
+	}
+
+/*
+Header classes for Currently Watching, Completed, Dropped, etc...
+*/
+
+.header_cw
+{
+color: #159957;
+    
+}
+
+.header_completed
+{
+color: #337ab7;
+
+}
+
+.header_onhold
+{
+color: #f0ad4e;
+}
+
+.header_dropped
+{
+color: #d9534f;
+}
+
+.header_ptw
+{
+color: #5f5f5f;
+}
+
+.header_title {
+padding-bottom: 4px;
+font-size: 30px;
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.category_totals
+{
+padding-bottom: 20px !important;
+    text-align: center;
+    color: #757575;
+}
+
+#grand_totals
+{
+    display: none;
+}
+
+/* header_al is the div surrounding "User's Anime List" at the top */
+
+.header_al
+{
+font-weight: bold;
+font-size: 16px;
+}
+
+/* header_al_links is the div with your "Profile" and "MyAnimeList home" links */
+.header_al_links
+{
+
+}
+
+/* controls what styles you can give to all the anime titles in your list */
+.animetitle
+{
+font-weight: bold;
+}
+
+/*
+copyright contains the "Producted by Garrett Gyssler" text
+DO NOT REMOVE OR HIDE THIS DIV
+IF FOUND TO BE REMOVED, YOUR LIST WILL BE REMOVED TOO
+*/
+
+#copyright
+{
+padding:15px;
+text-align: center;
+margin: 0 auto;
+    border-color: #bce8f1;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    color: #31708f;
+background-color: #d9edf7;
+}
+
+#inlineContent {
+    display: flex !important;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    margin-right:-50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#inlineContent::before {
+    content: "iSayChris";
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#inlineContent::After {
+    content: "MyAnimeList";
+    position: inherit;
+    top: 80px;
+    font-size: 20px;
+    color: #B5D2D3;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+#mal\_control\_strip {
+	width: 100%;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    background:url("");
+    background-repeat:repeat-x;
+    background-color: #24292e;
+    color: #ffffff;
+	font-family: 'Open Sans';
+	font-size: 11px;
+	font-variant: normal;
+	text-transform: none;
+	position: fixed;
+	top: 0px;
+	z-index:5;
+}
+
+#mal\_control\_strip a {
+	color: #ffffff;
+	font-family: 'Open Sans';
+	font-size: 11px;
+	font-variant: normal;
+	font-weight: normal;
+    text-decoration: underline;
+	background: transparent;
+	text-transform: none;
+}
+
+
+#mal\_control\_strip img {
+	background: transparent none repeat scroll 0%;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+#mal\_control\_strip table {
+	width: auto;
+	height: 40px;
+}
+
+#mal\_control\_strip td {
+	height: 40px;
+	color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-variant: normal;
+	text-transform: none;
+}
+
+#mal\_control\_strip td div {
+	margin: 3px 0;
+    color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-variant: normal;
+}
+
+#mal_cs_pic {
+	width: 80px;
+    padding-right: 8px;
+    padding: 0 1em;
+}
+
+#mal_cs_listinfo {
+	width: 75px;
+    padding: 0 1em;
+}
+
+#mal_cs_links {
+	width: 150px;
+    padding: 0 1em;
+}
+
+#mal_cs_otherlinks {
+	padding: 0 1em;
+}
+
+#mal_cs_powered a {
+    display: none;
+}
+
+#mal_cs_powered {
+	position: absolute;
+	top: 4px;
+	right: 7px;
+}
+
+#mal_cs_powered #search {
+}
+
+#mal_cs_powered #search #searchBox {
+	border-radius: 3px;
+	padding: 4px;
+	font-size: 15px;
+	color: #8A8C8F;
+	text-align: center;
+	background-color: #404448;
+	border-style: none;
+}
+
+#searchListButton {
+	display: none;
+}
+
+#searchListButton:hover {
+	cursor: pointer;
+}
+
+#mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
+	border-right: 1px solid #7e7e7e;
+}
+
+.hide {
+	display: none;
+}
+
+.borderRBL {
+	border-width: 0 1px 1px 1px;
+}
+
+
+/* Back to Mobile site */
+#btn-back_to_mobile {
+	position: absolute;
+	top: 4px;
+	right: 170px;
+	background-image: url('/images/back_to_mobile_site02.png?v=2');
+	background-size: 142px 20px;
+	background-position: 4px 4px;
+	background-repeat: no-repeat;
+	display: block;
+	width: 142px!important;
+	height: 20px!important;
+	background-color: #F0F3FA;
+	border: #2E51A2 2px solid;
+	border-radius: 4px;
+	padding: 4px;
+	z-index: 10;
+	text-indent: -9999px;
+}
+
+#mal_control_strip #btn-back_to_mobile {
+	top: 4px;
+	left: 470px;
+}
