@@ -149,7 +149,6 @@ tr:hover .td2, tr:hover .td1 {
 }
 #list_surround::before {
     background-image: url("http://i.imgur.com/inhE84Q.gif");
-    background-size: 100% 100%;
     content: "";
     display: block !important;
     height: 200px !important;
