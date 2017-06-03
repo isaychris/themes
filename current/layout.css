@@ -1,10 +1,11 @@
 @import "https://mal-image.appspot.com/all/isaychris";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 BODY {
     background-color: #dfdfdf;
     background-image: url("http://i.imgur.com/vSTpVOS.png") !important;
     color: white;
-    font-family: arial !important;
+    font-family: Roboto !important;
     font-size: 13px;
     margin: 0;
 }
