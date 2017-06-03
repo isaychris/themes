@@ -1,3 +1,9 @@
+/*
+// Theme: Fundamental Version 1.0
+// Author: https://github.com/isaychris
+// Date: June 6, 2017
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 /*
@@ -288,7 +294,7 @@ background-color: #d9edf7;
     padding: 0;
     margin: 0;
     left: 0;
-    background:url("");
+    background:url("") !important;
     background-repeat:repeat-x;
     background-color: #24292e;
     color: #ffffff;
@@ -311,7 +317,6 @@ background-color: #d9edf7;
 	background: transparent;
 	text-transform: none;
 }
-
 
 #mal\_control\_strip img {
 	background: transparent none repeat scroll 0%;
