@@ -148,14 +148,14 @@ tr:hover .td2, tr:hover .td1 {
     text-align: center;
 }
 #list_surround::before {
-    background-image: url("http://i.imgur.com/inhE84Q.gif");
+    background-image: url("http://i.imgur.com/lxDniKJ.gif");
     content: "";
     display: block !important;
     height: 200px !important;
     position: absolute !important;
     top: 70px !important;
     width: 950px !important;
-	border-radius: 15px 15px 0px 0px !important;
+    border-radius: 15px 15px 0px 0px !important;
 }
 #searchBox {
     background: #90a4ae none repeat scroll 0 0;
