@@ -169,6 +169,14 @@ font-family: Verdana, Arial;
     border-width: 1px;
 	}
 
+.status_not_selected:first-of-type, .status_selected:first-of-type {
+	border-radius: 5px 0px 0px 5px;
+}
+
+.status_not_selected:last-of-type, .status_selected:last-of-type {
+	border-radius: 0px 5px 5px 0px;
+}
+
 .status_not_selected
 {
 	color: #000000;
@@ -259,7 +267,7 @@ margin: 0 auto;
     border-color: #bce8f1;
     border-style: solid;
     border-width: 1px;
-    border-radius: 7px;
+    border-radius: 5px;
     color: #31708f;
 background-color: #d9edf7;
 }
