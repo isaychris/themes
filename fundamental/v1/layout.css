@@ -290,11 +290,11 @@ background-color: #d9edf7;
 
 
 #mal\_control\_strip {
-	width: 100%;
+    width: 100%;
     padding: 0;
     margin: 0;
     left: 0;
-    background:url("") !important;
+    background-image: url("") !important;
     background-repeat:repeat-x;
     background-color: #24292e;
     color: #ffffff;
