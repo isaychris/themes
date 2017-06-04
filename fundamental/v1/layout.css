@@ -261,6 +261,11 @@ margin: 0 auto;
 background-color: #d9edf7;
 }
 
+#copyright::After {
+    white-space: pre !important;
+    content: "\A Layout design by iSayChris";
+}
+
 #inlineContent {
     display: flex !important;
     position: absolute;
