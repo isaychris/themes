@@ -288,15 +288,14 @@ background-color: #d9edf7;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-
 #mal\_control\_strip {
+    background-image: url("") !important;
+    background-color: #24292e !important;
     width: 100%;
     padding: 0;
     margin: 0;
     left: 0;
-    background-image: url("") !important;
     background-repeat:repeat-x;
-    background-color: #24292e;
     color: #ffffff;
 	font-family: 'Open Sans';
 	font-size: 11px;
