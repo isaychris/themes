@@ -1,5 +1,4 @@
-
-    /*
+/*
 // Theme: Fundamental Version 1.0
 // Author: https://github.com/isaychris
 // Date: June 6, 2017
@@ -50,6 +49,9 @@ margin-bottom: 25px;
     color: #3c763d;
     border-radius: 5px;
     opacity: 1 !important;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d6e9c6;
 }
 /*
 // All links on your list
@@ -285,7 +287,7 @@ background-color: #d9edf7;
 	  border-radius:100px;
     display: flex !important;
     position: absolute;
-    top: 190px;
+    top: 200px;
     left: 50%;
 	  margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -297,16 +299,17 @@ background-color: #d9edf7;
 	  margin-top:220px;
 	  color:rgba(255,255,255, 0.6);
 	  font-size:25px;
-	  content:"iSayChris";
+	  content:"V";
 	  width:200px;
 	  text-align: center;
-}*/
-
+}
+*/
 
 #mal\_control\_strip {
     background-image: url("") !important;
     background-color: #24292e !important;
     width: 100%;
+	  height: 50px;
     padding: 0;
     margin: 0;
     left: 0;
@@ -388,8 +391,8 @@ background-color: #d9edf7;
 
 #mal_cs_powered {
 	position: absolute;
-	top: 4px;
-	right: 7px;
+	top: 0px;
+	right: 0px;
 }
 
 #mal_cs_powered #search {
@@ -397,12 +400,13 @@ background-color: #d9edf7;
 
 #mal_cs_powered #search #searchBox {
 	border-radius: 3px;
-	padding: 4px;
-	font-size: 15px;
+	padding: 8px;
+	font-size: 15px !important;
 	color: #8A8C8F;
 	text-align: center;
 	background-color: #404448;
 	border-style: none;
+	top: 0px !important;
 }
 
 #searchListButton {
@@ -522,3 +526,6 @@ tr:hover td.td1 small, tr:hover td.td2 small {
     opacity: 1 !important;
 }
   
+#mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
+	border-right: none !important;
+}
