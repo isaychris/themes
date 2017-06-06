@@ -1,7 +1,7 @@
 /*
 // Theme: Fundamental Version 1.1
 // Author: https://github.com/isaychris
-// Date: June 4, 2017
+// Date: June 6, 2017
 */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
@@ -278,7 +278,8 @@ Header classes for Currently Watching, Completed, Dropped, etc...
 }
 
 #inlineContent {
-  background-image: url(https://myanimelist.cdn-dena.com/images/userimages/1117293.jpg);
+  background-image: url('https://myanimelist.cdn-dena.com/images/userimages/1117293.jpg');
+  box-shadow: 3px 3px 2px 0.3px rgba(0,0,0,0.3);
   height: 200px;
   width: 200px;
   border-radius: 100px;
