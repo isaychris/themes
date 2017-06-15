@@ -6,7 +6,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-
 /*
 // Self-explanatory
 */
@@ -18,6 +17,35 @@ body:before {
   height: 350px;
   background-image: linear-gradient(120deg, #155799, #159957);
 }
+
+#inlineContent {
+  background-image: url('http://i.imgur.com/INSPi6q.png');
+  background-position: center;
+  background-size: cover;
+  box-shadow: 3px 3px 2px 0.3px rgba(0,0,0,0.3);
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  display: flex !important;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+/*
+#inlineContent::after {
+	  display: block;
+	  color: white;
+	  margin-top:220px;
+	  color:rgba(255,255,255, 0.6);
+	  font-size:25px;
+	  content:"V";
+	  width:200px;
+	  text-align: center;
+}
+*/
 
 BODY {
   margin: 0;
@@ -276,38 +304,6 @@ Header classes for Currently Watching, Completed, Dropped, etc...
   content: "\A Layout design by iSayChris";
   margin-bottom: 20px;
 }
-
-#inlineContent {
-  background-image: url('http://i.imgur.com/INSPi6q.png');
-  background-position: center;
-  background-size: cover;
-  box-shadow: 3px 3px 2px 0.3px rgba(0,0,0,0.3);
-  height: 200px;
-  width: 200px;
-  border-radius: 100px;
-  display: flex !important;
-  position: absolute;
-  top: 200px;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
-
-
-
-/*
-#inlineContent::after {
-	  display: block;
-	  color: white;
-	  margin-top:220px;
-	  color:rgba(255,255,255, 0.6);
-	  font-size:25px;
-	  content:"V";
-	  width:200px;
-	  text-align: center;
-}
-*/
 
 #mal\_control\_strip {
   background-image: url("") !important;
