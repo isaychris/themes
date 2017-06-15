@@ -278,7 +278,9 @@ Header classes for Currently Watching, Completed, Dropped, etc...
 }
 
 #inlineContent {
-  background-image: url('https://myanimelist.cdn-dena.com/images/userimages/1117293.jpg');
+  background-image: url('http://i.imgur.com/INSPi6q.png');
+  background-position: center;
+  background-size: cover;
   box-shadow: 3px 3px 2px 0.3px rgba(0,0,0,0.3);
   height: 200px;
   width: 200px;
@@ -290,6 +292,8 @@ Header classes for Currently Watching, Completed, Dropped, etc...
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
+
+
 
 
 /*
