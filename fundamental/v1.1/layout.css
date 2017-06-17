@@ -319,7 +319,7 @@ Header classes for Currently Watching, Completed, Dropped, etc...
 #mal_cs_links {
     width: 150px;
     padding: 0 1em;
-    display: none;
+    display: none !important;
 }
 #mal_cs_otherlinks {
     padding: 0 1em;
