@@ -1,7 +1,7 @@
 /*
 // Theme: Fundamental Version 1.1
 // Author: https://github.com/isaychris
-// Date: June 6, 2017
+// Date: June 17, 2017
 */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
@@ -378,11 +378,11 @@ Header classes for Currently Watching, Completed, Dropped, etc...
 #mal_cs_links {
   width: 150px;
   padding: 0 1em;
+  display: none;
 }
 
 #mal_cs_otherlinks {
   padding: 0 1em;
-  display: none;
 }
 
 #mal_cs_powered a {
