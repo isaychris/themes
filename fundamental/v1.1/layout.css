@@ -159,7 +159,7 @@ a:hover {
 /* Which 'status' up top is selected? */
 
 .status_selected {
-    color: #000000;
+    color: rgb(230, 230, 230);
     border-color: #ABABAB;
     padding: 2px;
     background-color: #FFFFFF;
