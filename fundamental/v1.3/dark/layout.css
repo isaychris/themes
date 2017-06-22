@@ -489,7 +489,6 @@ COVERS MOD
 .hide:hover {
     background-color: #2E333D;
     background-size: cover;
-    box-shadow: 0 3px 6px -2px gray;
     margin-left: -203px;
     margin-top: -320px;
     padding-right: 150px;
