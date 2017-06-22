@@ -116,6 +116,15 @@ a:hover {
     background-color: #393F4C;
     line-height: 25px;
 }
+
+/*
+// Table hover color
+*/
+
+tr:hover .td2, tr:hover .td1 {
+    background-color: #4D5667 !important;
+}
+
 /*
 // This represents the "Anime Title", "Score", "# Eps" columns
 */
