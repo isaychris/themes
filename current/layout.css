@@ -1,9 +1,8 @@
-@import "https://mal-image.appspot.com/all/isaychris";
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 BODY {
     background-color: #dfdfdf;
-    background-image: url("http://i.imgur.com/vSTpVOS.png") !important;
+    background-image: url("https://isaychris.github.io/themes/current/assets/background.png") !important;
     color: white;
     font-family: Roboto !important;
     font-size: 13px;
@@ -148,7 +147,7 @@ tr:hover .td2, tr:hover .td1 {
     text-align: center;
 }
 #list_surround::before {
-    background-image: url("http://i.imgur.com/lxDniKJ.gif");
+    background-image: url("");
     content: "";
     display: block !important;
     height: 200px !important;
@@ -241,7 +240,7 @@ td.td1:nth-of-type(1), td.td2:nth-of-type(1) {
     width: 950px;
 }
 #inlineContent::before {
-    content: "水に流す";
+    content: " ";
     display: block;
     font-size: 50px;
     margin-top: 70px;
