@@ -1,4 +1,4 @@
-![Image](http://i.imgur.com/fqSzBA5.png)
+![Image](http://i.imgur.com/0mEZBoJ.png)
 
 Usage:
 ```CSS
