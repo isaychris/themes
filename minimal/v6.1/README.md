@@ -15,7 +15,7 @@ body {
 
 /* BANNER */
 :nth-child(5) .header_title {
-    background: rgba(255, 255, 255, 0) url("http://i.imgur.com/lxDniKJ.gif") no-repeat scroll center center / 100% 100%;
+    background: rgba(255, 255, 255, 0) url("https://isaychris.github.io/themes/minimal/assets/banner.gif") no-repeat scroll center center / 100% 100%;
 }
 
 /* User tag */
