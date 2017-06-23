@@ -8,7 +8,7 @@ Usage:
 
 /* Avatar */
 #inlineContent {
-  background-image: url('');
+  background-image: url('https://myanimelist.cdn-dena.com/images/userimages/1117293.jpg');
 }
 
 /* User tag */
