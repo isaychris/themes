@@ -1,9 +1,7 @@
-@import "http://mal-image.appspot.com/all/isaychris";
- 
 body {
     background-attachment: fixed;
     background-color: #eeeeee;
-    background-image: url("https://dl.dropboxusercontent.com/u/188037746/15/pw_maze_white.png");
+    background-image: url("https://isaychris.github.io/themes/sidebar/assets/background.png");
     font-family: arial;
     font-size: 13px !important;
 }
@@ -208,7 +206,7 @@ tr:hover .td2, tr:hover .td1 {
 }
 #list_surround::before {
     background-color: #607d8b;
-    background-image: url("http://i.imgur.com/lxDniKJ.gif") !important;
+    background-image: url("") !important;
     border-radius: 15px !important;
     box-shadow: 0 3px 6px -2px gray;
     color: rgba(0, 0, 0, 0) !important;
