@@ -2,7 +2,7 @@
 
 Usage:
 ```CSS
-@import url('https://mal-image.appspot.com/all/isaychris);
+@import url('https://mal-image.appspot.com/all/isaychris');
 @import url('https://isaychris.github.io/sidebar/v1/layout.css');
 
 /* Banner */
