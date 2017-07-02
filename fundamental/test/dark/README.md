@@ -2,7 +2,7 @@ Usage:
 
 ```CSS
 @import url('https://malcat-gen.appspot.com/series?preset=animetitlebefore');
-@import url('https://isaychris.github.io/themes/fundamental/test/layout.css');
+@import url('https://isaychris.github.io/themes/fundamental/test/dark/layout.css');
 
 /* Header */
 BODY::before {
