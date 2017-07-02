@@ -1,11 +1,10 @@
 /*
-// Theme: Fundamental Version test
+// Theme: Fundamental Version test - dark
 // Author: https://github.com/isaychris
-// Date: June 30, 2017
+// Date: july 1, 2017
 */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 #inlineContent {
     background-position: center;
     background-size: cover;
@@ -37,7 +36,7 @@
     width: 197px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.08);
-    content:"User";
+    content: "User";
 }
 #inlineContent:hover::after {
     background-color: rgba(255, 255, 255, 0.2);
@@ -69,7 +68,6 @@ BODY {
     width: 920px;
     margin-bottom: 25px;
 }
-
 #list_surround .animetitle+small {
     border-style: solid;
     border-width: 1px;
@@ -119,15 +117,14 @@ a:hover {
     background-color: #393F4C;
     line-height: 25px;
 }
-
 /*
 // Table hover color
 */
 
-tr:hover .td2, tr:hover .td1 {
+tr:hover .td2,
+tr:hover .td1 {
     background-color: #4D5667 !important;
 }
-
 /*
 // This represents the "Anime Title", "Score", "# Eps" columns
 */
@@ -365,7 +362,6 @@ Header classes for Currently Watching, Completed, Dropped, etc...
 #mal_cs_links {
     border-right: 1px solid #7e7e7e;
 }
-
 #mal_cs_pic,
 #mal_cs_listinfo,
 #mal_cs_links {
@@ -377,7 +373,6 @@ Header classes for Currently Watching, Completed, Dropped, etc...
 .borderRBL {
     border-width: 0 1px 1px 1px;
 }
-
 /*
 Top 
 */
@@ -432,6 +427,7 @@ Bottom and bottom sides
 /*
 Other tables at bottom
 */
+
 #grand_totals,
 #copyright {
     border-color: #4D5667;
@@ -446,7 +442,8 @@ tr:hover td.td1 small,
 tr:hover td.td2 small {
     opacity: 1 !important;
 }
-.td1.borderRBL, .td2.borderRBL {
+.td1.borderRBL,
+.td2.borderRBL {
     border-color: #4D5667;
     border-style: solid;
     border-width: 1px !important;
