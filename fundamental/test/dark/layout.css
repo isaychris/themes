@@ -1,7 +1,7 @@
 /*
 // Theme: Fundamental Version test - dark
 // Author: https://github.com/isaychris
-// Date: july 1, 2017
+// Date: july 6, 2017
 */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
@@ -56,9 +56,6 @@ BODY {
     background-repeat: no-repeat;
     background-color: #272B35;
 }
-* {
-    text-decoration: none !important;
-}
 /*
 // Determines the positioning of your list
 */
@@ -82,18 +79,19 @@ BODY {
 /*
 // All links on your list
 */
-
+* {
+    text-decoration: none !important;
+}
 a {
     color: whitesmoke;
-    text-decoration: underline;
 }
 a:visited {
     color: whitesmoke;
-    text-decoration: underline;
 }
 a:hover {
     color: whitesmoke;
     text-decoration: none;
+    border-bottom: 2px solid #5675B9;
 }
 /*
 // Alternating row color 1
@@ -165,7 +163,6 @@ tr:hover .td1 {
     font-family: Verdana, Arial;
 }
 /* Which 'status' up top is selected? */
-
 .status_selected {
     color: #000000;
     border-color: #ABABAB;
@@ -182,6 +179,9 @@ tr:hover .td1 {
 .status_not_selected a {
     display: block;
     padding: 10px;
+}
+.status_selected a:hover, .status_not_selected a:hover {
+    border-bottom: none;
 }
 .status_not_selected:first-of-type,
 .status_selected:first-of-type {
@@ -447,5 +447,5 @@ tr:hover td.td2 small {
     border-color: #4D5667;
     border-style: solid;
     border-width: 1px !important;
-    padding-left: 40px;
+    padding-left: 35px;
 }
