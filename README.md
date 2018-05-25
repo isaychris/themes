@@ -1,3 +1,6 @@
+How to apply these custom themes:  
+https://myanimelist.net/forum/?topicid=200320    
+
 ### fundamental dark
 ![Image](https://i.imgur.com/mB3lhKr.png)
 
