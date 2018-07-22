@@ -1,6 +1,9 @@
 How to apply these custom themes:  
 https://myanimelist.net/forum/?topicid=200320    
 
+### modern dark 
+![Image](https://i.imgur.com/eKVRw66.png)
+
 ### fundamental dark
 ![Image](https://i.imgur.com/mB3lhKr.png)
 
