@@ -1,0 +1,302 @@
+#advanced-options {
+    background: #393F4C !important;
+    border-color: #4D5667;
+}
+
+#advanced-options .btn-apply,
+#advanced-options .btn-clear {
+    background: #5675B9 !important;
+}
+
+#footer-block {
+    background: #5675B9 !important;
+    width: 1058px !important;
+    margin: auto !important;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5675B9;
+    padding: 10px 0 !important;
+}
+
+body {
+    margin: 0;
+    color: whitesmoke !important;
+    font-size: 11.00px;
+    font-family: Verdana, Arial;
+    background-repeat: no-repeat;
+    background-color: #272B35 !important;
+}
+
+a {
+    color: whitesmoke !important;
+}
+
+td {
+    height: 25px !important;
+}
+
+tr {
+    background: #393F4C;
+    line-height: 25px !important;
+}
+
+tr:hover {
+    background-color: #4D5667 !important;
+}
+
+.list-container {
+    border: none;
+    background: rgba(0,0,0,0) !important;
+}
+
+.list-block {
+    margin-top: 0px;
+    min-height: 500px !important;
+}
+
+.list-unit .list-status-title {
+    width: 100%;
+    color: whitesmoke;
+    background-color: rgb(0, 0, 0, 0);
+}
+
+.list-unit .list-status-title .text {
+    text-transform: capitalize !important;
+    font-weight: normal;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.list-unit {
+    margin: auto !important;
+    width: 100% !important;
+}
+
+.list-table {
+    border-style: solid;
+    border-color: #4D5667;
+    border-width: 1px;
+    font-size: 10px !important;
+}
+
+.list-table .list-table-data .data.score .link {
+    font-size: 11px !important;
+    font-weight: normal;
+}
+
+.list-table .list-table-header .header-title {
+    border-bottom: solid 1px;
+    border-color: #4D5667;
+    background: #2E333D !important;
+    width: 100%;
+    font-size: 11px !important;
+}
+
+.list-table .list-table-header .header-title .link:hover {
+    text-decoration: underline;
+}
+
+.list-table .list-table-data .data.title .link:hover {
+    border-bottom: 2px solid #5675B9;
+}
+
+.list-table .list-table-header .header-title .sort-icon {
+    color: whitesmoke;
+}
+
+.list-table .list-table-data .data a {
+    color: whitesmoke !important;
+}
+
+.list-table .list-table-data .data a:hover {
+    color: whitesmoke !important;
+}
+
+.list-table .list-table-data .tags .edit {
+    font-size: 11px !important;
+    color: whitesmoke !important;
+}
+
+.list-table .list-table-data .tags .edit:hover {
+    color: whitesmoke !important;
+}
+
+.list-table .list-table-data .data {
+    font-size: 10px !important;
+    border: none;
+}
+
+.list-table .list-table-header .tags {
+    font-size: 11px !important;
+    min-width: 150px;
+}
+
+.list-table .list-table-data .data.title .link {
+    font-weight: normal;
+}
+
+.list-table .list-table-header .header-title.number {
+    min-width: 40px !important;
+}
+
+.list-table .list-table-data .data.image .image {
+    width: 40px;
+    height: 60px;
+    border: #4D5667 1px solid !important;
+}
+
+.list-menu-float .icon-menu.setting {
+    display: none;
+}
+
+.list-menu-float .icon-menu.quick-add {
+    display: none !important;
+}
+
+.list-menu-float .icon-menu.export {
+    display: none !important;
+}
+
+.list-menu-float .icon-menu:hover svg.icon {
+    fill: whitesmoke;
+}
+
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting,
+.list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+    background-color: #393F4C !important;
+}
+
+.list-menu-float {
+    left: 15px;
+    border-color: #4D5667;
+}
+
+.list-menu-float .icon-menu svg.icon {
+    fill: whitesmoke;
+}
+
+.list-menu-float .icon-menu {
+    background-color: #393F4C !important;
+}
+
+.list-unit .list-status-title .text {
+    text-align: left;
+}
+
+.list-unit .list-stats {
+    width: 100% !important;
+    background: rgba(0, 0, 0, 0);
+    color: whitesmoke;
+}
+
+.status-menu-container .status-menu {
+    border-spacing: 0px;
+    border-color: #4D5667;
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    font-size: 9px;
+    background: #2E333D !important;
+    width: 1056px !important;
+}
+
+.status-menu-container {
+    font-size: 10px !important;
+    height: 60px;
+    background: #2E333D;
+    border: none;
+}
+
+.status-menu-container .status-menu .status-button {
+    font-size: 12px;
+    width: 16.66%;
+}
+
+.status-menu-container .status-menu .status-button.on {
+    background: #393F4C !important;
+    font-weight: normal;
+    max-height: 1px !important;
+}
+
+.status-menu-container .status-menu .status-button:after {
+    height: 2px !important;
+    background: #5675B9 !important;
+}
+
+.status-menu-container .status-menu .status-button:hover {
+    background: #393F4C !important;
+}
+
+.status-menu-container .search-container {
+    display: none !important;
+}
+
+.status-menu-container {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+.cover-block {
+    width: 100%;
+}
+
+.cover-block .image-container img {
+    max-width: none;
+    border-radius: 15px 15px 0 0;
+    border-color: #4D5667;
+    border-style: solid;
+    border-width: 1px;
+    width: 1056px !important;
+}
+
+.cover-block .image-container {
+    display: block !important;
+    padding: 0px;
+    width: 100% !important;
+    border: none !important;
+}
+
+.initialize-tutorial {
+    display: none !important;
+}
+
+.icon-watch {
+    display: none !important;
+}
+
+.content-status {
+    background: #5675B9 !important;
+    padding: 5px;
+    color: whitesmoke !important;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.score,
+.type,
+.progress {
+    min-width: 60px;
+}
+
+.add-edit-more {
+    display: none !important;
+}
+
+.list-table .list-table-data .data:hover .add-edit-more {
+    display: inline !important;
+}
+
+.tags .edit {
+    display: none !important;
+}
+
+.tags:hover .edit {
+    display: inline !important;
+}
+
+.list-table .more-info .more-content {
+    border-bottom: solid 1px #4D5667 !important;
+    background-color: #4D5667 !important;
+}
+
+.borderRBL {
+    background-color: #4D5667 !important;
+}
