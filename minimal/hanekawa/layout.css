@@ -1,0 +1,261 @@
+body {
+    background-attachment: fixed !important;
+    background-color: #f0f0f0 !important;
+    background-image: url("https://i.imgur.com/FMBXFGQ.jpg") !important;
+    background-repeat: repeat-x !important;
+    background-size: cover;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-size: 13px;
+}
+* {
+    text-decoration: none !important;
+}
+a {
+    color: #ffffff;
+}
+a:hover {
+    border-bottom: 2px solid #a5b8d6;
+    color: #ffffff;
+    text-decoration: none;
+}
+.status_selected {
+    background-color: #a5b8d6;
+    border-color: #000000;
+    border-width: 0 1px 1px 0;
+    color: #000000;
+    line-height: 2.5em;
+    text-decoration: none !important;
+}
+.status_not_selected a:hover {
+    border-bottom: 0 none !important;
+}
+.status_selected a:hover {
+    border-bottom: 0 none !important;
+}
+.status_not_selected:hover {
+    box-shadow: 0 -5px 0 0 #a5b8d6 inset;
+    transition: all 0.2s ease 0s;
+}
+.status_not_selected {
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    border-bottom: 0 none !important;
+    border-left-color: #000000;
+    border-right-color: #000000;
+    border-top-color: #000000;
+    color: #000000;
+    line-height: 2.5em;
+}
+.status_selected:hover {
+}
+.status_selected a, .status_not_selected a {
+    display: block;
+}
+#list_surround {
+    background: rgba(143, 143, 143, 0.77) none no-repeat scroll 0 0;
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.41);
+    height: 100%;
+    margin: 290px auto 20px;
+    width: 850px;
+}
+:nth-child(5) .header_title {
+    background: rgba(255, 255, 255, 0) url("https://i.imgur.com/FMBXFGQ.jpg") no-repeat scroll 0 -50px / cover ;
+}
+:nth-child(5) .header_title {
+    border-color: #f5f5f5;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-width: 2px;
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.41);
+    height: 250px;
+    margin-left: -28px;
+    position: absolute;
+    top: 60px;
+    width: 850px;
+}
+:nth-child(5) .header_title::before {
+    background: rgba(0, 0, 1, 0.15) none repeat scroll 0 0;
+    color: rgba(0, 0, 0, 0);
+    content: ".";
+    display: block;
+    font-size: 50px !important;
+    position: relative;
+    text-align: center;
+    top: 180px;
+}
+:nth-child(5) .header_title::before {
+}
+:nth-child(5) .header_title::after {
+    color: white;
+    content: "ブラック羽川";
+    display: block;
+    font-size: 45px;
+    position: relative;
+    right: -25px;
+    text-shadow: 1px 2px 6px #000000;
+    top: 125px;
+}
+#list_surround .header_cw {
+    background: rgba(255, 255, 255, 0.75) url("http://i.imgur.com/uuWODfe.png") no-repeat scroll center center;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.21);
+}
+#list_surround .header_completed {
+    background: rgba(255, 255, 255, 0.75) url("http://i.imgur.com/n9e38rQ.png") no-repeat scroll center center;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.21);
+}
+#list_surround .header_onhold {
+    background: rgba(255, 255, 255, 0.75) url("http://i.imgur.com/2nFyk8R.png") no-repeat scroll center center;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.21);
+}
+#list_surround .header_ptw {
+    background: rgba(255, 255, 255, 0.75) url("http://i.imgur.com/av1NSs6.png") no-repeat scroll center center;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.21);
+}
+#list_surround .header_dropped {
+    background: rgba(255, 255, 255, 0.75) url("http://i.imgur.com/gZAmz5H.png") no-repeat scroll center center;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.21);
+}
+#list_surround .header_cw, #list_surround .header_completed, #list_surround .header_onhold, #list_surround .header_ptw, #list_surround .header_dropped {
+    margin-bottom: 7px;
+    margin-left: 0;
+    padding: 28px;
+}
+#list_surround .header_title span {
+    color: #000000;
+    display: none;
+    font-size: 1px;
+}
+#list_surround .header_title .thickbox {
+    display: none;
+}
+#list_surround br {
+    display: none;
+}
+.borderRBL {
+    color: #cccccc !important;
+}
+.borderRBL br {
+    display: block !important;
+}
+.table_header {
+    background: rgba(153, 208, 176, 0.9) none repeat scroll 0 0;
+    border-color: #ababab;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    color: #ffffff;
+    line-height: 1.8em;
+    padding: 4px;
+}
+.td1 {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    line-height: 20px;
+    padding: 4px;
+}
+.td2 {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    line-height: 20px;
+    padding: 4px;
+}
+#list_surround .animetitle + small {
+    background: #a5b8d6 none repeat scroll 0 0;
+    font-size: 13px;
+    margin-left: 10px;
+    opacity: 1;
+    padding: 2px;
+    text-transform: lowercase;
+}
+.td1, .td2, .table_header {
+    border-color: #ffffff;
+    border-width: 0 !important;
+    color: #ffffff;
+}
+tr:hover td.td1 small, tr:hover td.td2 small {
+    font-size: 13px;
+    opacity: 1;
+}
+.td1 small, .td2 small {
+    font-size: 13px;
+    opacity: 0;
+}
+tr:hover .td2, tr:hover .td1 {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+}
+#list_surround .category_totals {
+    background: rgba(153, 208, 176, 0.9) none repeat scroll 0 0;
+    color: #ffffff;
+    line-height: 25px;
+    margin-top: 15px;
+    text-align: center;
+}
+#list_surround #grand_totals {
+    background-color: #a5b8d6;
+    color: #ffffff;
+    display: none;
+    line-height: 25px;
+    text-align: center;
+}
+#search {
+    bottom: 50px !important;
+    left: 100px !important;
+}
+#searchBox {
+    background: #ffffff none repeat scroll 0 0 !important;
+    border-radius: 5px;
+    border-style: hidden;
+    box-shadow: 0 0 3px #e2e2e2;
+    color: #aaaaaa;
+    display: block !important;
+    font-family: Consolas,Arial,sans-serif !important;
+    font-size: 10px;
+    height: 20px !important;
+    letter-spacing: 0.1em;
+    padding-left: 10px;
+    padding-right: 10px;
+    right: 6px !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    top: 8px !important;
+    width: 220px !important;
+}
+#searchListButton {
+    display: none;
+}
+#mal\_control\_strip {
+    background-color: #8f8f8f !important;
+    background-image: url("http://i.imgur.com/fv1Pc.png") !important;
+}
+#mal_cs_powered a {
+    display: none;
+}
+#copyright {
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    color: #ffffff;
+    line-height: 2.5em;
+    margin-top: 0 !important;
+}
+#copyright::after {
+    background-color: #333333;
+    background-image: url("http://db.tt/uBvPkq8g");
+    background-position: center center;
+    background-repeat: no-repeat;
+    bottom: 5px;
+    color: rgba(0, 0, 0, 0) !important;
+    content: "Minimalist - 'Tsubasa' Designed by iSayChris";
+    display: block;
+    font-size: 0 !important;
+    height: 5px;
+    padding-bottom: 20px;
+    position: fixed;
+    right: 5px;
+    transition: all 0.15s ease-out 0s;
+    width: 25px;
+}
+#copyright:hover::after {
+    background-image: none;
+    color: #e5e5e5 !important;
+    font-size: 13px !important;
+    height: auto !important;
+    padding: 5px;
+    text-align: justify !important;
+    transition: all 0.15s ease-in 0s;
+    width: 150px;
+}
